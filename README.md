@@ -10,10 +10,10 @@
 ## Installation
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 
 cd frontend/
-npm run build
+npm install
 
 ```
 
@@ -22,9 +22,10 @@ npm run build
 
 `dev`
 ```
-npm run start
-
+npm start build && cd ../
 python manage.py runserver
+
+check `127.0.0.1:8000`
 
 ```
 
