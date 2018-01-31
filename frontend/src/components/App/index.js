@@ -1,21 +1,42 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './index.css';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
-class App extends Component {
-  render() {
+import {Nav} from './Nav';
+import NotFound from '../NotFound';
+// import Login from '../Login';
+// import Explore from '../Explore';
+import './style.css';
+
+export default class App extends Component {
+  constructor (props) {
+    super();
+    this.state = {
+      currentUserId: "",
+      currentUsername: "",
+      currentRole: "unauthorized"
+    };
+
+    this.changeCurrentUser.bind(this);
+  };
+
+  changeCurrentUser(currentUserId, currentUsername, currentRole) {
+    this.setState({ currentUserId, currentUsername, currentRole});
+  }
+  
+  render(props) {
+    const { currentUserId, currentUsername, currentRole} = this.state;
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to Crypted</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/components/app/index.js</code> and save to reload.
-        </p>
-      </div>
+      <BrowserRouter>
+        <div className="container">
+            <Nav userId={currentUserId} username={currentUsername} role={currentRole}/>
+            <Switch>
+              {/* <Route path="/login" component={(props)=><Login changeCurrentUser={this.changeCurrentUser.bind(this)} {...props} />} /> */}
+              {/* <Route exact path="/" component={(props)=><Explore userId={currentUserId} role={currentRole} {...props} />} /> */}
+              <Route component={NotFound} />
+            </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
-}
-
-export default App;
+};
