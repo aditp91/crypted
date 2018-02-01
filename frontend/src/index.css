@@ -1,3 +1,9 @@
+@import './vendor/bootstrap/dist/css/bootstrap.min.css';
+@import './plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css';
+@import './vendor/css/animate.css';
+@import './vendor/css/style.css';
+@import './vendor/css/colors/default.css';
+
 body {
   margin: 0;
   padding: 0;
