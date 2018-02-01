@@ -1,13 +1,16 @@
 @import './vendor/bootstrap/dist/css/bootstrap.min.css';
-@import './plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css';
 @import './vendor/css/animate.css';
 @import './vendor/css/style.css';
-@import './vendor/css/colors/default.css';
+@import './vendor/css/colors/default-dark.css';
+
+@import './plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css';
+@import './plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css';
+@import './plugins/bower_components/toast-master/css/jquery.toast.css';
+@import './plugins/bower_components/morrisjs/morris.css';
+
 
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-
-  background: black;
 }

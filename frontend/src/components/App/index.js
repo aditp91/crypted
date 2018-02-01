@@ -28,7 +28,7 @@ export default class App extends Component {
 
     return (
       <BrowserRouter>
-        <div className="container">
+        <div className="wrapper">
             <Nav userId={currentUserId} username={currentUsername} role={currentRole}/>
             <Switch>
               {/* <Route path="/login" component={(props)=><Login changeCurrentUser={this.changeCurrentUser.bind(this)} {...props} />} /> */}
