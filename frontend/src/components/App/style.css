@@ -1,3 +1,21 @@
 .App {
   text-align: center;
 }
+
+/* Nav */
+.crypted-nav .top-left-part {
+  /* left: 220px; */
+  height: 80px;
+  padding: 0 0 0 30px;
+}
+
+/* Sidebar */
+.sidebar {
+  /* TODO: why override? needs fix */
+  background: #353c48 !important;
+  padding-top: 100px !important;
+  overflow: hidden !important;
+}
+.sidebar .label-custom {
+  background: #01c0c8 !important;
+}

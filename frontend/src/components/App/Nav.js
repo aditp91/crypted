@@ -6,11 +6,14 @@ export function Nav (props) {
 
     return (
         <div>
-            <nav className="navbar navbar-default navbar-static-top m-b-0">
+            <nav className="crypted-nav navbar navbar-default navbar-static-top m-b-0">
                 <div className="navbar-header">
                 <a className="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse">
                     <i className="ti-menu"></i>
                 </a>
+                <div className="top-left-part">
+                    <a className="logo" href="/"><h1>Crypted</h1></a>
+                </div>
                 <ul className="nav navbar-top-links navbar-left hidden-xs">
                     <li>
                     <a href="javascript:void(0)" className="open-close hidden-xs waves-effect waves-light">
@@ -131,7 +134,8 @@ export function Nav (props) {
                 <div className="sidebar-nav navbar-collapse slimscrollsidebar">
                     <div className="user-profile">
                         <div className="dropdown user-pro-body">
-                            <div><img src="../plugins/images/users/varun.jpg" alt="user-img" className="img-circle"/></div> <a href="#" className="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Steave Gection <span className="caret"></span></a>
+                            <div><img src="../../plugins/images/users/varun.jpg" alt="user-img" className="img-circle"/></div>
+                            <a href="#" className="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Steave Gection <span className="caret"></span></a>
                             <ul className="dropdown-menu animated flipInY">
                                 <li><a href="#"><i className="ti-user"></i> My Profile</a></li>
                                 <li><a href="#"><i className="ti-wallet"></i> My Balance</a></li>
