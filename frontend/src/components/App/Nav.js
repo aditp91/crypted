@@ -135,7 +135,7 @@ export function Nav (props) {
                     <div className="user-profile">
                         <div className="dropdown user-pro-body">
                             <div><img src="../../plugins/images/users/varun.jpg" alt="user-img" className="img-circle"/></div>
-                            <a href="#" className="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Steave Gection <span className="caret"></span></a>
+                            <a href="#" className="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Crypted Username <span className="caret"></span></a>
                             <ul className="dropdown-menu animated flipInY">
                                 <li><a href="#"><i className="ti-user"></i> My Profile</a></li>
                                 <li><a href="#"><i className="ti-wallet"></i> My Balance</a></li>
