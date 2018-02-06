@@ -53,7 +53,7 @@ export default class Dashboard extends Component {
                                   <td className="txt-oflo">Ethereum (ETH)</td>
                                   <td><span className="label label-info label-rounded">NEUTRAL</span></td>
                                   <td className="txt-oflo">April 19</td>
-                                  <td><span className="text-info">$709.35</span></td>
+                                  <td><span className="text-warning">$709.35</span></td>
                               </tr>
                               <tr>
                                   <td className="txt-oflo">Litecoin (LTC)</td>

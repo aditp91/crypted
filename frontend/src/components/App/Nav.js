@@ -159,18 +159,15 @@ export function Nav (props) {
                         <li className="nav-small-cap m-t-10">--- Main Menu</li>
                         <li> <a href="index.html" className="waves-effect active"><i className="linea-icon linea-basic fa-fw" data-icon="v"></i> <span className="hide-menu"> Dashboard <span className="fa arrow"></span> <span className="label label-rouded label-custom pull-right">4</span></span></a>
                             <ul className="nav nav-second-level">
-                                <li> <a href="index.html">Minimalistic</a> </li>
-                                <li> <a href="index2.html">Demographical</a> </li>
-                                <li> <a href="index3.html">Analitical</a> </li>
-                                <li> <a href="index4.html">Simpler</a> </li>
+                                <li> <a href="index.html">Social News</a> </li>
+                                <li> <a href="index2.html">Analytics</a> </li>
+                                <li> <a href="index2.html">Exchanges</a> </li>
                             </ul>
                         </li>
-                        <li> <a href="javascript:void(0);" className="waves-effect"><i className="linea-icon linea-basic fa-fw text-danger" data-icon="7"></i> <span className="hide-menu text-danger"> Multipurpose <span className="fa arrow"></span> <span className="label label-rouded label-danger pull-right">HOT</span></span></a>
+                        <li> <a href="javascript:void(0);" className="waves-effect"><i className="linea-icon linea-basic fa-fw text-danger" data-icon="7"></i> <span className="hide-menu text-danger"> Settings <span className="fa arrow"></span> <span className="label label-rouded label-danger pull-right">2</span></span></a>
                             <ul className="nav nav-second-level">
-                                <li> <a href="../eliteadmin-hospital/index.html">Hospital Admin</a> </li>
-                                <li> <a href="../eliteadmin-crm/index.html">CRM Admin</a> </li>
-                                <li> <a href="../eliteadmin-university/index.html">University Admin</a> </li>
-                                <li> <a href="../eliteadmin-music/index.html">Music Admin</a> </li>
+                                <li> <a href="../eliteadmin-hospital/index.html">My Account</a> </li>
+                                <li> <a href="../eliteadmin-crm/index.html">External Wallets</a> </li>
                             </ul>
                         </li>
                         <li className="nav-small-cap">--- Proffessional</li>
@@ -178,8 +175,6 @@ export function Nav (props) {
                             <ul className="nav nav-second-level">
                                 <li> <a href="flot.html">Flot Charts</a> </li>
                                 <li><a href="morris-chart.html">Morris Chart</a></li>
-                                <li><a href="chart-js.html">Chart-js</a></li>
-                                <li><a href="peity-chart.html">Peity Charts</a></li>
                             </ul>
                         </li>
                         <li><a href="login.html" className="waves-effect"><i className="icon-logout fa-fw"></i> <span className="hide-menu">Log out</span></a></li>
