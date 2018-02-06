@@ -5,7 +5,7 @@ import App from './components/App';
 import './index.css';
 
 import {$,jQuery} from 'jquery';
-import 'bootstrap/dist/js/bootstrap.bundle.js';
+// import 'bootstrap/dist/js/bootstrap.bundle.js';
 
 // import './plugins/bower_components/jquery/dist/jquery.min.js';
 // import './vendor/bootstrap/dist/js/tether.min.js';

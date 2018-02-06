@@ -1,5 +1,5 @@
 /* Porfolio Widget */
 
-.porfolio .crypted-subheading {
-  color: #96a2b4;
+.porfolio tr {
+  border: 100px;
 }
