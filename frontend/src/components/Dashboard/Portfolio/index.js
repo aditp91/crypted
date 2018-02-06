@@ -51,7 +51,7 @@ export default class Dashboard extends Component {
                               </tr>
                               <tr>
                                   <td className="txt-oflo">Ethereum (ETH)</td>
-                                  <td><span className="label label-info label-rounded">NEUTRAL</span></td>
+                                  <td><span className="label label-warning label-rounded">NEUTRAL</span></td>
                                   <td className="txt-oflo">April 19</td>
                                   <td><span className="text-warning">$709.35</span></td>
                               </tr>
@@ -69,12 +69,12 @@ export default class Dashboard extends Component {
                               </tr>
                               <tr>
                                   <td className="txt-oflo">Neo (NEO)</td>
-                                  <td><span className="label label-danger label-rounded">NEGATIVE</span></td>
+                                  <td><span className="label label-info label-rounded">NO VALUE</span></td>
                                   <td className="txt-oflo">April 21</td>
-                                  <td><span className="text-success">$82.37</span></td>
+                                  <td><span className="text-info">$82.37</span></td>
                               </tr>
                           </tbody>
-                      </table> <a href="/">Check all the cryptocurrencies</a> </div>
+                      </table> <a href="/">See entire portfolio</a> </div>
               </div>
           </div>
       </div>
