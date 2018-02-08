@@ -4,7 +4,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import {Nav} from './Nav';
 import NotFound from '../NotFound';
 import Dashboard from '../Dashboard';
-// import Login from '../Login';
+import Login from '../Login';
 import './style.css';
 
 export default class App extends Component {
@@ -32,8 +32,8 @@ export default class App extends Component {
             <Nav userId={currentUserId} username={currentUsername} role={currentRole}/>
             <Switch>
               <Route exact path="/" component={(props)=><Dashboard userId={currentUserId} role={currentRole} {...props} />} />
+              <Route path="/login" component={(props)=><Login changeCurrentUser={this.changeCurrentUser.bind(this)} {...props} />} />
               <Route component={NotFound} />
-              {/* <Route path="/login" component={(props)=><Login changeCurrentUser={this.changeCurrentUser.bind(this)} {...props} />} /> */}
             </Switch>
         </div>
       </BrowserRouter>
